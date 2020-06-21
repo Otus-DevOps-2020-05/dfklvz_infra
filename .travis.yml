@@ -1,0 +1,10 @@
+dist: trusty
+sudo: required
+language: bash
+before_install:
+- curl https://raw.githubusercontent.com/express42/otus-homeworks/2020-05/run.sh |
+  bash
+notifications:
+  slack:
+    rooms:
+      secure: cplmmBTAVFe4QOmJ/JORqBLlt92yZalfABib8ihpYxK3wRiIu5Nj0JuEKV2l8sb3U0wID5MHiVl/bCY8V6YNqCge0lrjVoqizUuzh01XZj2XHF7V2d4EKEz4Dl1Mwn75nuQqE5/5Skca5f+IaxVL9Fqo5Xd8AItk+8UVOu3u/7A79TGEGUMogMmiRt0tJAqpSjajgbBQSDAVtQNTe9yTto6rJoHPbXtRl0S+3g+zQQRMakbQTBLu0/lNGxdgg6sRmMLfU8P6mH6uiByhBj9WTKjJA0JgYGGARcs/qYYdTUomXnz2H0BbeJCYNPyG4VqnwPmOtaa6+awkEwU+QK9DDFCbviqzPvyc2MFzjsxm+xx+qPxO8tWCfhau/pAdo8D0bt6pgZC4uJnJhkzN3KpE0BOIMih2wbCwnKKZWZtQ3fi7gju0Vkh91XKyABkcC8CRZ97aBb9Ase0hqUF4wsCjG09N/uvJlEe2kdBBlcRy1lilU9zl1lxHDDuqjslaQ8TPi2JMdKzz4cg0cCsrL/py1VYvaQYxrkGF/TpYitwF6dVpEeHFx+cd2Phij2sR017SxVh+TWMpavNTYEy5Z4oJL1kc5LXr/gfA7Hr49J3GWO3ZmY23kSlIp8U09OGEH0fbr77mHiKNRGlVQrmyKKwerFiBAeR5TBXMtAj3vwvJv70=
